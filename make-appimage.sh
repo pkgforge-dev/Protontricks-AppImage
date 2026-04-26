@@ -18,6 +18,10 @@ export DEPLOY_VULKAN=1
 quick-sharun /usr/bin/*tricks*
 echo 'unset VK_DRIVER_FILES' >> ./AppDir/.env
 
+cc -shared -fPIC -O2 -o ./AppDir/lib/execve-sharun-hack.so execve-sharun-hack.c -ldl
+echo 'execve-sharun-hack.so' >> ./AppDir/.preload
+echo 'export ANYLINUX_EXECVE_WRAP_PATHS="$DATADIR:$HOME/.steam"' >> ./AppDir/bin/execve-wrap-path.hook
+
 # Additional changes can be done in between here
 
 # Turn AppDir into AppImage
