@@ -1,19 +1,19 @@
 <div align="center">
 
-# protontricks-AppImage 🐧
+# Protontricks-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/protontricks-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/protontricks-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/protontricks-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/protontricks-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/protontricks-AppImage)](https://github.com/pkgforge-dev/protontricks-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Protontricks-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Protontricks-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Protontricks-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Protontricks-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Protontricks-AppImage)](https://github.com/pkgforge-dev/Protontricks-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/flathub/com.github.Matoking.protontricks/f516b0d3e74fb91eb883080ba2396eef102841ba/icon_scalable.svg" width="128" />
+  <img src="https://raw.githubusercontent.com/flathub/com.github.Matoking.Protontricks/f516b0d3e74fb91eb883080ba2396eef102841ba/icon_scalable.svg" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/protontricks-AppImage/releases/latest) | [Click here](https://github.com/matoking/protontricks) |
+| [Click here](https://github.com/pkgforge-dev/Protontricks-AppImage/releases/latest) | [Click here](https://github.com/matoking/Protontricks) |
 
 </div>
 
