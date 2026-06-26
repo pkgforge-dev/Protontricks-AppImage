@@ -15,7 +15,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/*tricks* /usr/lib/libopenjp2.so.7
+quick-sharun /usr/bin/*tricks* /usr/lib/libopenjp2.so* /usr/lib/libtiff.so*
 echo 'unset VK_DRIVER_FILES' >> ./AppDir/.env
 
 cc -shared -fPIC -O2 -o ./AppDir/lib/execve-sharun-hack.so execve-sharun-hack.c -ldl
