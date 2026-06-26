@@ -17,10 +17,11 @@ export DEPLOY_VULKAN=1
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/*tricks*        \
+	/usr/bin/zenity          \
 	/usr/lib/libopenjp2.so*  \
 	/usr/lib/libtiff.so*     \
 	/usr/lib/libimagequant.so*
-	
+
 echo 'unset VK_DRIVER_FILES' >> ./AppDir/.env
 
 cc -shared -fPIC -O2 -o ./AppDir/lib/execve-sharun-hack.so execve-sharun-hack.c -ldl
