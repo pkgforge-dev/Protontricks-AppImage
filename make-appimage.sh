@@ -18,6 +18,13 @@ export DEPLOY_VULKAN=1
 quick-sharun \
 	/usr/bin/*tricks*        \
 	/usr/bin/zenity          \
+	/usr/bin/yad             \
+	/usr/bin/cabextract      \
+	/usr/bin/aria2c          \
+	/usr/bin/unzip           \
+	/usr/bin/unrar           \
+	/usr/bin/xz              \
+	/usr/bin/7z              \
 	/usr/lib/libopenjp2.so*  \
 	/usr/lib/libtiff.so*     \
 	/usr/lib/libimagequant.so*

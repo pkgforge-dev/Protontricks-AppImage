@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm protontricks
+pacman -Syu --noconfirm protontricks aria2 unrar 7zip xz yad
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
