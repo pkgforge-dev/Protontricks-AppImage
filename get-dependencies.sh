@@ -6,13 +6,13 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm protontricks
+pacman -Syu --noconfirm protontricks aria2 unrar 7zip xz yad zenity
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-make-aur-package zenity-rs-bin
+#make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
