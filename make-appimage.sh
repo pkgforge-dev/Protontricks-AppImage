@@ -23,7 +23,7 @@ quick-sharun \
 	/usr/bin/unzip           \
 	/usr/bin/unrar           \
 	/usr/bin/xz              \
-	/usr/bin/7z              \
+	/usr/lib/7zip/7z*        \
 	/usr/lib/libopenjp2.so*  \
 	/usr/lib/libtiff.so*     \
 	/usr/lib/libimagequant.so*
